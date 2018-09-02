@@ -19,7 +19,11 @@ export default {
     swiperSlide,
   },
   props: {
-    opotions: {
+    cname: {
+      type: String,
+      default: "",
+    },
+    options: {
       type: Object,
       default() {
         return {

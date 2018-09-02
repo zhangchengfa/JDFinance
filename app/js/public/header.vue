@@ -1,11 +1,11 @@
 <template lang="html">
-  <div class="$style.header">
-    <span class="$style.left">
+  <div :class="$style.header">
+    <span :class="$style.left">
       <em>注册</em>
       &nbsp;|&nbsp;
       <em>登录</em>
     </span>
-    <btn class="$style.btnDownload">
+    <btn :class="$style.btnDownload">
       APP下载
     </btn>
   </div>
